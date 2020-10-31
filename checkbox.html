@@ -67,11 +67,20 @@
         <label for="term_NDA">NDA</label>
         <p>
             <label for="xs">XS:</label>
-            <input type="radio" name="size" id="xs">
+            <input type="radio" name="size" id="xs" value="xs">
             <label for="s">S:</label>
-            <input type="radio" name="size" id="s">
+            <input type="radio" name="size" id="s" value="s">
             <label for="xs">M:</label>
-            <input type="radio" name="size" id="M">
+            <input type="radio" name="size" id="M" value="m">
+        </p>
+        <p>
+            <label for="something">Wybierz rozmar:</label>
+            <select name="wearsize" id="something">
+                <option value="">----Please select correct size:</option>
+                <option value="xs_size">XS Size</option>
+                <option value="m_size">M Size</option>
+                <option value="s_size">S Size</option>
+            </select>
         </p>
         <button>ok</button>
         </form>
